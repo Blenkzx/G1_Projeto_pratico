@@ -6,7 +6,7 @@ Projeto G1 — Análise e Visualização de Dados com Python (Tema 02).
 **Aluno:** Renan Braga Gomes  
 **Professor:** Alexandre Louzada
 
-- **Dashboard:** https://SEU-APP.streamlit.app
+- **Dashboard:** https://g1projetopratico.streamlit.app
 - **Página do projeto:** https://SEU-USUARIO.github.io/projeto-chuvas-deslizamentos-rj/
 - **Repositório:** https://github.com/SEU-USUARIO/projeto-chuvas-deslizamentos-rj
 
