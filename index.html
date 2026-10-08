@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Chuvas e Deslizamentos no RJ</title>
+<style>
+:root{--bg:#f7f9fc;--fg:#1a202c;--card:#fff;--ac:#2b6cb0;--mut:#4a5568}
+@media(prefers-color-scheme:dark){:root{--bg:#10151c;--fg:#e2e8f0;--card:#1a222d;--ac:#63b3ed;--mut:#a0aec0}}
+body{margin:0;font-family:system-ui,Segoe UI,Arial,sans-serif;background:var(--bg);color:var(--fg);line-height:1.6}
+header{background:linear-gradient(135deg,#2b6cb0,#2c5282);color:#fff;padding:3rem 1rem;text-align:center}
+main{max-width:980px;margin:auto;padding:1rem}
+section{background:var(--card);border-radius:12px;padding:1.2rem 1.5rem;margin:1.2rem 0;box-shadow:0 1px 4px #0002}
+h2{color:var(--ac);margin-top:0}img{max-width:100%;border-radius:8px;background:#fff}
+.k{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:.8rem}
+.k div{background:var(--bg);border-radius:8px;padding:.8rem;text-align:center}.k b{display:block;font-size:1.5rem;color:var(--ac)}
+a.btn{display:inline-block;background:var(--ac);color:#fff;padding:.6rem 1.1rem;border-radius:8px;text-decoration:none;margin:.3rem .3rem 0 0}
+.t span{background:var(--bg);border-radius:20px;padding:.2rem .7rem;margin:.2rem;display:inline-block;font-size:.9rem}
+</style></head>
+<body>
+<header><h1>🌧️ Chuvas e Deslizamentos no Estado do Rio de Janeiro</h1>
+<p>Projeto G1 — Análise e Visualização de Dados com Python</p>
+<p><b>LINGUAGENS DE PROGRAMAÇÃO</b> · SII1P0604N0002<br>Aluno: Renan Braga Gomes · Professor: Alexandre Louzada</p></header>
+<main>
+<section><h2>O problema</h2>
+<p>Chuvas intensas em áreas de encosta provocam deslizamentos, desalojados e óbitos, sobretudo nas cidades serranas. O projeto analisa uma base simulada (8 municípios, 2015–2024, 960 registros mensais) para identificar municípios vulneráveis, períodos críticos e a relação entre chuva e deslizamentos.</p>
+<a class="btn" href="https://SEU-APP.streamlit.app">▶ Abrir dashboard</a>
+<a class="btn" href="https://github.com/SEU-USUARIO/projeto-chuvas-deslizamentos-rj">GitHub</a></section>
+<section><h2>Indicadores principais</h2>
+<div class="k"><div><b>131 mil mm</b>chuva somada</div><div><b>5.426</b>deslizamentos</div><div><b>54,4 mil</b>desalojados</div><div><b>Teresópolis</b>mais crítico</div><div><b>r = 0,82</b>chuva × desliz.</div></div></section>
+<section><h2>Evolução temporal</h2><img src="imagens/temporal.png" alt="Série temporal de chuva e deslizamentos">
+<p>Chuva e deslizamentos sobem e descem juntos, com picos todo verão.</p></section>
+<section><h2>Municípios</h2><img src="imagens/municipios.png" alt="Deslizamentos por município">
+<p>Teresópolis, Petrópolis e Nova Friburgo (Serra) somam mais da metade dos deslizamentos, apesar de o volume de chuva ser parecido com o dos demais municípios.</p></section>
+<section><h2>Correlação</h2><img src="imagens/dispersao.png" alt="Dispersão chuva x deslizamentos">
+<p>Correlação forte e positiva (r ≈ 0,82); na região Serrana chega a 0,89.</p></section>
+<section><h2>Sazonalidade</h2><img src="imagens/heatmap.png" alt="Heatmap ano x mês">
+<p>De dezembro a março a chuva média é ≈ 214 mm/mês e há ≈ 10 deslizamentos/mês; no resto do ano, ≈ 98 mm e ≈ 3,5.</p></section>
+<section><h2>Conclusão executiva</h2>
+<p>O risco combina chuva de verão com vulnerabilidade do terreno serrano. Recomenda-se priorizar alertas e contenção na Serra antes de dezembro. A base é simulada: os resultados são didáticos.</p></section>
+<section><h2>Tecnologias</h2><div class="t"><span>Python</span><span>Pandas</span><span>Matplotlib</span><span>Seaborn</span><span>Streamlit</span><span>Plotly</span><span>SQLAlchemy + SQLite</span><span>GitHub Pages</span></div></section>
+</main></body></html>
