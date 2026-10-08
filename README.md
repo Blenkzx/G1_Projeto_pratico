@@ -8,7 +8,7 @@ Projeto G1 — Análise e Visualização de Dados com Python (Tema 02).
 
 - **Dashboard:** https://g1projetopratico.streamlit.app
 - **Página do projeto:** https://SEU-USUARIO.github.io/projeto-chuvas-deslizamentos-rj/
-- **Repositório:** [https://github.com/SEU-USUARIO/projeto-chuvas-deslizamentos-rj](https://github.com/Blenkzx/G1_Projeto_pratico)
+- **Repositório:** https://github.com/Blenkzx/G1_Projeto_pratico
 
 ## Problema
 Investigar a relação entre chuva e deslizamentos em 8 municípios do RJ (base **simulada**, 2015–2024): municípios vulneráveis, períodos críticos, sazonalidade e correlação.
