@@ -7,7 +7,7 @@ Projeto G1 — Análise e Visualização de Dados com Python (Tema 02).
 **Professor:** Alexandre Louzada
 
 - **Dashboard:** https://g1projetopratico.streamlit.app
-- **Página do projeto:** https://SEU-USUARIO.github.io/projeto-chuvas-deslizamentos-rj/
+- **Página do projeto:** https://blenkzx.github.io/G1_Projeto_pratico/
 - **Repositório:** https://github.com/Blenkzx/G1_Projeto_pratico
 
 ## Problema
